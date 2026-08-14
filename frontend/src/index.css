@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --color-primary: #2563EB;
+  --color-primary-dark: #1D4ED8;
+  --color-secondary: #1E3A8A;
+  --color-dark: #0F172A;
+  --color-dark-soft: #16213E;
+  --color-light: #FFFFFF;
+  --color-gray: #F8FAFC;
+  --color-accent: #3B82F6;
+  --color-muted: #64748B;
+  --color-border: #E2E8F0;
+
+  --shadow-card: 0 1px 2px rgba(15,23,42,.04), 0 12px 32px -12px rgba(15,23,42,.12);
+  --shadow-card-hover: 0 2px 4px rgba(15,23,42,.06), 0 30px 50px -16px rgba(37,99,235,.25);
+  --shadow-glow: 0 0 0 1px rgba(59,130,246,.15), 0 20px 60px -10px rgba(37,99,235,.45);
+}
+
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--color-light);
+  color: var(--color-dark);
+}
+h1, h2, h3, h4, .font-heading { font-family: var(--font-heading); }
+
+::selection { background: var(--color-primary); color: white; }
+
+.container-x { @apply max-w-[1280px] mx-auto px-6 md:px-10; }
+
+.btn-gradient {
+  background-image: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+}
+
+.glass {
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.text-gradient {
+  background-image: linear-gradient(135deg, #60A5FA, #2563EB);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}

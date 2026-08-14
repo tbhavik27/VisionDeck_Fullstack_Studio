@@ -1,0 +1,19 @@
+<svg width="960" height="600" viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dbeafe"/></linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <g opacity=".12" stroke="#fff"><path d="M0 120h960M0 240h960M0 360h960M0 480h960M160 0v600M320 0v600M480 0v600M640 0v600M800 0v600"/></g>
+  <rect x="100" y="88" width="760" height="424" rx="28" fill="#fff" opacity=".94"/>
+  <rect x="132" y="128" width="220" height="88" rx="18" fill="#eff6ff"/>
+  <rect x="384" y="128" width="180" height="88" rx="18" fill="#ecfdf5"/>
+  <rect x="596" y="128" width="232" height="88" rx="18" fill="#f8fafc"/>
+  <path d="M152 414c76-82 142-25 205-96 67-77 130 3 203-74 71-75 154-31 236-90" fill="none" stroke="#2563eb" stroke-width="14" stroke-linecap="round"/>
+  <g fill="#0f172a" font-family="Inter,Arial" font-weight="700">
+    <text x="152" y="168" font-size="24">Budget</text><text x="152" y="198" font-size="32">$48.2k</text>
+    <text x="404" y="168" font-size="24">Savings</text><text x="404" y="198" font-size="32">+18%</text>
+    <text x="616" y="168" font-size="24">Portfolio</text><text x="616" y="198" font-size="32">Live Sync</text>
+  </g>
+  <circle cx="736" cy="178" r="18" fill="#22c55e"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="960" height="600" viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#4f46e5"/></linearGradient></defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <g opacity=".15" stroke="#fff"><path d="M180 300h600M480 120v360M272 184l416 232M688 184L272 416"/></g>
+  <circle cx="480" cy="300" r="112" fill="#fff" opacity=".95"/>
+  <circle cx="480" cy="300" r="58" fill="#2563eb"/>
+  <g fill="#fff" font-family="Inter,Arial" font-weight="900"><text x="438" y="318" font-size="46">AI</text></g>
+  <g fill="#60a5fa"><circle cx="272" cy="184" r="28"/><circle cx="688" cy="184" r="28"/><circle cx="272" cy="416" r="28"/><circle cx="688" cy="416" r="28"/></g>
+</svg>

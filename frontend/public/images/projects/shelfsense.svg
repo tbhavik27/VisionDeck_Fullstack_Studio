@@ -1,0 +1,15 @@
+<svg width="960" height="600" viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <g opacity=".16" stroke="#fff"><path d="M0 100h960M0 220h960M0 340h960M0 460h960M120 0v600M240 0v600M360 0v600M480 0v600M600 0v600M720 0v600M840 0v600"/></g>
+  <rect x="104" y="92" width="752" height="416" rx="28" fill="#0f172a" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="152" y="142" width="160" height="124" rx="18" fill="#dbeafe"/>
+  <rect x="340" y="142" width="160" height="124" rx="18" fill="#dcfce7"/>
+  <rect x="528" y="142" width="160" height="124" rx="18" fill="#fef3c7"/>
+  <rect x="152" y="306" width="160" height="124" rx="18" fill="#fee2e2"/>
+  <rect x="340" y="306" width="160" height="124" rx="18" fill="#ede9fe"/>
+  <rect x="528" y="306" width="160" height="124" rx="18" fill="#e0f2fe"/>
+  <path d="M716 154l74 74M790 154l-74 74" stroke="#22c55e" stroke-width="14" stroke-linecap="round"/>
+  <rect x="718" y="326" width="94" height="70" rx="12" fill="#2563eb"/>
+  <g fill="#fff" font-family="Inter,Arial" font-weight="800"><text x="172" y="214" font-size="34">AI</text><text x="724" y="374" font-size="24">31%</text></g>
+</svg>
