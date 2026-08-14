@@ -6,7 +6,9 @@ dist/
 build/
 coverage/
 .vite-cache/
+.tmp/
 dist-ssr/
+*.tsbuildinfo
 
 # Local environment and secrets
 .env
